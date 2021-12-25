@@ -274,7 +274,7 @@ Takole naj bi delovala callback funkcija:
 - Ko vemo, da je id veljaven, ga lahko odstranimo iz myRequests mappinga. (To bomo naredili tako, da bomo uporabili nekaj podobnega kot delete MojMapping[ključ]
 - Na koncu mora naša funkcija še pognati event, da obvesti front-end, da je bila cena posodobljena.
 
-Zgornji razmislek lahko implmentiramo takole:
+Zgornji razmislek lahko implementiramo takole:
 
 ``` Solidity
 // SPDX-License-Identifier: MIT
