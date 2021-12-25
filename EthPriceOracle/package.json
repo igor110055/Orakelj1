@@ -1,0 +1,21 @@
+{
+  "name": "EthPriceOracle",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "bn.js": "^5.2.0",
+    "loom-js": "^1.75.2",
+    "loom-truffle-provider": "^0.13.0",
+    "openzeppelin-solidity": "^4.4.1",
+    "truffle": "^5.4.26"
+  },
+  "devDependencies": {},
+  "description": ""
+}

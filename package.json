@@ -1,0 +1,23 @@
+{
+  "name": "Orakelj1",
+  "version": "1.0.0",
+  "description": "Recimo, da izdelujemo Dapp in hočemo uporabnikom aplikacije omogočiti, da dvignejo Eth, v določeni količini USD. Da zadostimo tej zahtevi mora naša pametna pogodba poznati vrednost Eth v USD.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juresternad/Orakelj1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juresternad/Orakelj1/issues"
+  },
+  "homepage": "https://github.com/juresternad/Orakelj1#readme",
+  "dependencies": {
+    "openzeppelin-solidity": "^4.4.1"
+  }
+}
