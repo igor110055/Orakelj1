@@ -393,7 +393,7 @@ contract EthPriceOracle is Ownable {
 ```
 
 
-Nato pa, kot pri caller pogodbi, naredimo že CallerContractInterface.sol v isti mapi in vanj prilepimo spodnje:
+Nato pa, kot pri caller pogodbi, naredimo še CallerContractInterface.sol v isti mapi in vanj prilepimo spodnje:
 ``` Solidity
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
@@ -484,7 +484,7 @@ contract EthPriceOracle is Ownable {
   function setLatestEthPrice(uint256 _ethPrice, address _callerAddress, uint256 _id) public onlyOwner {
     require(pendingRequests[_id], "This request is not in my pending list.");
     delete pendingRequests[_id];
-    CallerContractInterface callerContractInstance;
+    CallerContractInterface = callerContractInstance;
     callerContractInstance = CallerContractInterface(_callerAddress);
     callerContractInstance.callback(_ethPrice, _id);
     emit SetLatestEthPriceEvent(_ethPrice, _callerAddress);
